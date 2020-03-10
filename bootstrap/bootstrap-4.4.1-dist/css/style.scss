@@ -1,0 +1,57 @@
+body {
+    font-family: Assistant;
+    font-weight: 500;
+}
+
+.navbar {
+    margin-top: 20px;
+    .navbar-brand {
+        img {
+            height: 32px;
+        }
+    }
+    .btn-login {
+        font-size: 16px;
+        font-family: Assistant;
+        font-weight: bold;
+        color: #173A56;
+        background-color: none;
+        border: 1px solid rgb(160, 159, 159);
+        &:hover {
+            background-color: rgb(238, 238, 238);
+            border: 1px solid rgb(99, 99, 99);
+        }
+    }
+    .btn-signup {
+        background-color: #FF9900;
+        border: 0px;
+        font-size: 16px;
+        font-family: Assistant;
+        font-weight: bold;
+        &:hover {
+            background-color: rgb(231, 180, 103);
+        }
+    }
+}
+
+.herobwa {
+    margin-top: 30px;
+    h1 {
+        font-family: 'Playfair Display';
+        font-weight: bolder;
+    }
+    p {
+        font-size: 18px;
+    }
+    .btn-primary {
+        background-color: #FF9900;
+        border: 0px;
+        font-size: 16px;
+        padding: 15px 41px;
+        font-family: Assistant;
+        font-weight: bold;
+        &:hover {
+            background-color: rgb(247, 170, 56);
+        }
+    }
+}
